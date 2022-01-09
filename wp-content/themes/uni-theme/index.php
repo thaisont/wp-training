@@ -1,4 +1,5 @@
-<?php
+
+<?php get_header(); 
 
 while (have_posts()) {
 
@@ -8,10 +9,14 @@ while (have_posts()) {
 
     <?php the_content(); ?>
 
-    <hr>git
+    <hr>
+
+
 
 <?php
 
 }
+
+get_footer();
 
 ?>
